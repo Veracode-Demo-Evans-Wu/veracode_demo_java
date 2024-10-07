@@ -4,4 +4,6 @@ use_custom_workflow: my_custom_build
 push:
     trigger: true
  issues:
-    trigger: false
+    trigger: true
+    commands: 
+      - "Veracode Static Scan"
