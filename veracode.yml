@@ -1,9 +1,12 @@
 veracode_static_scan:
 policy: 'Veracode Recommended Very High'
-use_custom_workflow: my_custom_build
 push:
     trigger: true
  issues:
     trigger: true
     commands: 
       - "Veracode Static Scan"
+
+analysis_on_platform: true
+create_code_scanning_alert: true
+create_issue: true
