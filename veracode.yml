@@ -6,7 +6,8 @@ push:
     trigger: true
     commands: 
       - "Veracode Static Scan"
-
+      
+analysis_branch: main
 analysis_on_platform: true
 create_code_scanning_alert: true
 create_issue: true
