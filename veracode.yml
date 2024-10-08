@@ -1,3 +1,0 @@
-               - name: Veracode Upload And Scan
-                uses: veracode/veracode-uploadandscan-action@0.2.7
-        
